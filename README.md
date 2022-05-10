@@ -21,7 +21,7 @@ pip install kaleido
 ```
 
 ## Pipeline
----
+
 The [main.ipynb](main.ipynb) notebook contains the pipeline of the project and it is structured as follows:
 
 1. [segmentation_color.ipynb](segmentation_color.ipynb) - Selects the desired object by means of depth and color.
@@ -34,30 +34,31 @@ The [main.ipynb](main.ipynb) notebook contains the pipeline of the project and i
 
 
 ## Model comparisson
----
-<b>Original model obtained from a CT image</b>  
-![M1_Original_model](model_demo/M1_Original_model.gif) 
-<b>Model obtained from the ARACAM system</b>
-![M1_ARACAM_model](model_demo/M1_ARACAM_model.gif)
 
-<b>Comparing models using Hausdorff distances to determine the worst case scenarios. For this model, everything above the cutline is relevant for the comparisson only.<b> 
+<b>Original model obtained from a CT image</b>\
+![M1_Original_model](model_demo/M1_Original_model.gif)\
+<b>Model obtained from the ARACAM system</b>\
+![M1_ARACAM_model](model_demo/M1_ARACAM_model.gif)\
+
+<b>Comparing models using Hausdorff distances to determine the worst case scenarios. For this model, everything above the cutline is relevant for the comparisson only.<b>\
 ![hausdorff_model_comparisson](model_demo/hausdorff_model_comparisson.png)
 
 ## Citing 
----
+
 If you use the ARACAM work for a scientific purpose, please cite the following paper.
 
-@Article{s22072443,
-AUTHOR = {Barreto, Marco A. and Perez-Gonzalez, Jorge and Herr, Hugh M. and Huegel, Joel C.},
-TITLE = {ARACAM: A RGB-D Multi-View Photogrammetry System for Lower Limb 3D Reconstruction Applications},
-JOURNAL = {Sensors},
-VOLUME = {22},
-YEAR = {2022},
-NUMBER = {7},
-ARTICLE-NUMBER = {2443},
-URL = {https://www.mdpi.com/1424-8220/22/7/2443},
-PubMedID = {35408058},
-ISSN = {1424-8220},
-DOI = {10.3390/s22072443}
+```
+@Article{Barreto2022,
+	AUTHOR = {Barreto, Marco A. and Perez-Gonzalez, Jorge and Herr, Hugh M. and Huegel, Joel C.},
+	TITLE = {ARACAM: A RGB-D Multi-View Photogrammetry System for Lower Limb 3D Reconstruction Applications},
+	JOURNAL = {Sensors},
+	VOLUME = {22},
+	YEAR = {2022},
+	NUMBER = {7},
+	ARTICLE-NUMBER = {2443},
+	URL = {https://www.mdpi.com/1424-8220/22/7/2443},
+	PubMedID = {35408058},
+	ISSN = {1424-8220},
+	DOI = {10.3390/s22072443}
 }
-
+```
