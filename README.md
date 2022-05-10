@@ -35,11 +35,11 @@ The [main.ipynb](main.ipynb) notebook contains the pipeline of the project and i
 
 ## Model comparisson
 
-<b>Original model obtained from a CT image</b>\
+<b>Original model obtained from a CT image</b>
 
-![M1_Original_model](model_demo/M1_Original_model.gif)\
+![M1_Original_model](model_demo/M1_Original_model.gif)
 
-<b>Model obtained from the ARACAM system</b>\
+<b>Model obtained from the ARACAM system</b>
 
 ![M1_ARACAM_model](model_demo/M1_ARACAM_model.gif)
 
