@@ -1,10 +1,10 @@
 # ARACAM
 
 ## A RGB-D Multi-View Photogrammetry System for Lower Limb 3D Reconstruction Applications
----
+
 ## Dependencies:
----
-Aracam uses different libraries, install dependencies using PyPi. 
+
+ARACAM uses different libraries, install dependencies using PyPi. 
 
 ```python
 pip install nbimporter
