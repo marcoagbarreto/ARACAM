@@ -35,11 +35,13 @@ The [main.ipynb](main.ipynb) notebook contains the pipeline of the project and i
 
 ## Model comparisson
 ---
-<b>Original model obtained from a CT image</b> <b>Model obtained from the ARACAM system</b> 
-![M1_Original_model](model_demo/M1_Original_model.gif) ![M1_ARACAM_model](model_demo/M1_ARACAM_model.gif)
+<b>Original model obtained from a CT image</b>  
+![M1_Original_model](model_demo/M1_Original_model.gif) 
+<b>Model obtained from the ARACAM system</b>
+![M1_ARACAM_model](model_demo/M1_ARACAM_model.gif)
 
-Comparing models using Hausdorff distances to determine the worst case scenarios. For this model, everything above the cutline is relevant for the comparisson only. 
-![hausdorff_model_comparisson](hausdorff_model_comparisson.png)
+<b>Comparing models using Hausdorff distances to determine the worst case scenarios. For this model, everything above the cutline is relevant for the comparisson only.<b> 
+![hausdorff_model_comparisson](model_demo/hausdorff_model_comparisson.png)
 
 ## Citing 
 ---
@@ -56,7 +58,6 @@ ARTICLE-NUMBER = {2443},
 URL = {https://www.mdpi.com/1424-8220/22/7/2443},
 PubMedID = {35408058},
 ISSN = {1424-8220},
-ABSTRACT = {In the world, there is a growing need for lower limb prostheses due to a rising number of amputations caused primarily, by diabetic foot. Researchers enable functional and comfortable prostheses through prosthetic design by integrating new technologies applied to the traditional handcrafted method for prosthesis fabrication that is still current. That is why computer vision shows to be a promising tool for the integration of 3D reconstruction that may be useful for prosthetic design. This work has the objective to design, prototype, and test a functional system to scan plaster cast molds, which may serve as a platform for future technologies for lower limb reconstruction applications. The image capture system comprises 5 stereoscopic color and depth cameras, each with 4 DOF mountings on an enveloping frame, as well as algorithms for calibration, segmentation, registration, and surface reconstruction. The segmentation metrics of dice coefficient and Hausdorff distance (HD) show strong visual similarity with an average similarity of 87% and average error of 6.40 mm, respectively. Moving forward, the system was tested on a known 3D printed model obtained from a computer tomography scan to which comparison results via HD show an average error of &le;1.93 mm thereby making the system competitive against the systems reviewed from the state-of-the-art.},
 DOI = {10.3390/s22072443}
 }
 
