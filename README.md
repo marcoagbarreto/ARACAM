@@ -43,7 +43,7 @@ The [main.ipynb](main.ipynb) notebook contains the pipeline of the project and i
 
 ![M1_ARACAM_model](model_demo/M1_ARACAM_model.gif)
 
-<b>Hausdorff distances was used compare both models. For this model, everything above the cutline is relevant for the comparisson only.<b>\
+<b>Hausdorff distances was used compare both models. <b>\
 ![hausdorff_model_comparisson](model_demo/hausdorff_model_comparisson.png)
 
 ## Citing 
