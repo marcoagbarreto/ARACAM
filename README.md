@@ -1,6 +1,8 @@
 # ARACAM
 
-## A RGB-D Multi-View Photogrammetry System for Lower Limb 3D Reconstruction Applications
+## [A RGB-D Multi-View Photogrammetry System for Lower Limb 3D Reconstruction Applications](https://www.mdpi.com/1424-8220/22/7/2443/htm)
+
+https://mdpi-res.com/d_attachment/sensors/sensors-22-02443/article_deploy/sensors-22-02443-v2.pdf
 
 ## Dependencies:
 
@@ -43,7 +45,7 @@ The [main.ipynb](main.ipynb) notebook contains the pipeline of the project and i
 
 ![M1_ARACAM_model](model_demo/M1_ARACAM_model.gif)
 
-<b>Hausdorff distances was used compare both models. <b>\
+<b>Hausdorff distances was used to compare both models. <b>\
 ![hausdorff_model_comparisson](model_demo/hausdorff_model_comparisson.png)
 
 ## Citing 
